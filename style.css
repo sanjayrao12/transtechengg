@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Courgette", cursive;
+}
+.center {
+  padding: auto;
+  margin-top: 15%;
+  display: block;
+  text-align: center;
+}
+
+img {
+  width: 55%;
+}
+.img img {
+  width: 40%;
+}
+.center p {
+  font-size: 125%;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("Images/Desktop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 580px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+  img {
+    width: 75%;
+  }
+  .img img {
+    width: 80%;
+  }
+  .center p {
+    font-size: 155%;
+    font-weight: 500;
+  }
+  .center {
+    padding: auto;
+    margin-top: 35%;
+    display: block;
+    text-align: center;
+  }
+}
